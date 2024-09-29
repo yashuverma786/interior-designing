@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+:root {
+    --color-golden: #189ba6;
+    --color-darkgrey: grey;
+    --color-black: black;
+    --color-white: white;
+
+}
+
+body {
+    background-color: var(--color-black);
+    color: #fff;
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-left: 40px;
+}
+
+.menu li {
+    
+    float: left;
+    margin-left: 40px;
+}
+
+.menu li a {
+    font-family: "Playwrite DE Grund", cursive;
+    text-decoration: none;
+    color: var(--color-white);
+    font-weight: 700;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+.contact-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--color-black);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: var(--color-golden);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bbb5b5;
+    background-color: var(--color-darkgrey);
+    color: var(--color-white);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--color-golden);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: var(--color-black);
+    cursor: pointer;
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+input[type="submit"]:hover {
+
+    border-radius: 55px;
+    background-color: rgb(174, 126, 3);
+    border-radius: 20px;
+}
