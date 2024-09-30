@@ -35,6 +35,11 @@ body {
 
 }
 
+img {
+  width: 100px;
+  height: auto;
+}
+
 
 #services {
     text-align: center;
