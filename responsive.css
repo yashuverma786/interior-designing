@@ -1,0 +1,56 @@
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        float: none;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .menu li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .form-container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .hero-section {
+        padding: 20px;
+        text-align: center;
+    }
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+.container {
+    width: 90%; 
+    padding: 2%;
+}
+/* Mobile View Styles */
+@media (max-width: 768px) {
+    .navbar {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar.active {
+      display: flex;
+    }
+  
+    .menu-icon {
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+      display: block;
+    }
+  
+    .dropdown-content {
+      position: static;
+    }
+  }
+  
